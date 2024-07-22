@@ -1,0 +1,35 @@
+.office {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.galleryImg {
+  width: 23%;
+  border-radius: 10px;
+}
+.btnDark {
+  background: #212ea0;
+  color: white;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .galleryImg {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+}
