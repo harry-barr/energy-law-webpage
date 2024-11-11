@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlug } from "@fortawesome/free-solid-svg-icons";
+import { faScaleBalanced } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="container">
-      <FontAwesomeIcon icon={faPlug} className="logo" font-size="3rem" />
+      <FontAwesomeIcon icon={faScaleBalanced} className="logo" font-size="3rem" />
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
